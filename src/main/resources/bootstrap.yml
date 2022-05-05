@@ -1,0 +1,22 @@
+server:
+  port: 8091
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: bank-product-asset
+      #username: xyz
+      #password: xyz
+
+# spring:
+#  application:
+#    name: bank-product-asset
+#  cloud:
+#    config:
+#      uri: http://localhost:8091
+#      username: nttdata
+#      password: nttd4t4
+      
+      
